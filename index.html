@@ -1,0 +1,46 @@
+<html>
+    <head>
+       <title>My Selfie Collage App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+</head>
+
+<body style="background-color:blanchedalmond">
+    <center>
+    <h1>Selfie Collage App</h1>
+    <hr>
+    <h4 style="color: red">Please allow the popups once they appear</h4>
+    <label>Say "take my selfie"</label>
+
+    <label>Your voice output: </label>
+    <textbox class="form-control" id="textbox" readonly="true" style="width: 300px"></textbox>
+    <br>
+    <button class="btn btn-primary" onclick="start();" style="width: 100px;">Start</button>
+    <p>Press the start button</button></button></p>
+
+    <label>Your webcam : </label>
+        <div id="camera" style="width: 360px; height:250px; border:1px solid grey"></div>
+        <br>
+
+        <label>Your selfies: </label>
+        <div id="resultRow">
+            <div id="row1">
+                <img src="img1.jpeg" style="width:30%">
+            </div>
+
+            <div id="row2">
+                <img src="img2.jpg" style="width: 30%">
+            </div>
+
+            <div id="row3">
+                <img src="img3.jpg" style="width: 30%">
+            </div>
+        </div>
+
+    </center>
+</body>
